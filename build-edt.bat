@@ -49,3 +49,5 @@ docker build ^
 
 if %ERRORLEVEL% neq 0 goto end
 
+:end
+echo End of program.
