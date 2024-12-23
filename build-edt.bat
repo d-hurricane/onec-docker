@@ -40,7 +40,7 @@ docker build ^
     --build-arg EDT_VERSION=%EDT_VERSION% ^
     --build-arg BASE_IMAGE=%BASE_IMAGE% ^
     --build-arg BASE_TAG=%BASE_TAG% ^
-    --build-arg DOCKER_REGISTRY_URL=%DOCKER_REGISTRY_URL% ^
+    --build-arg DOWNLOADER_REGISTRY_URL=%DOCKER_REGISTRY_URL% ^
     --build-arg DOWNLOADER_IMAGE=oscript-downloader ^
     --build-arg DOWNLOADER_TAG=latest ^
         -t %DOCKER_REGISTRY_URL%/onec-client:%edt_escaped% ^
